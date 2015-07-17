@@ -1,0 +1,44 @@
+SpaceGame
+by Dan Hatch
+
+SpaceGame is a game where you must protect your home world from an alien
+invansion and drifting asteroids. The player must pilot his spaceship to destroy
+enemy spaceships and asteroids, protect allied ships, and pickup more ammo.
+
+The game is comprised of the player's spaceship, a home world, the planet's
+moon, alien spaceships, ally ships, various asteroids, lasers, and rockets.
+The background depicts stars and galaxies. Sounds are played when acquiring more
+ammo, firing, or blowing something up.
+
+When any object in the game that has health (spaceship, ufo, asteroid) is
+destroyed (health <= 0), an explosion sound is played. When a player, or ufo
+fires a laser, there will be an accompanying sound. When the player picks up
+rocket or laser ammo, there will be a pickup sound that is played. 
+
+The player uses the arrow keys to control the spaceship. The controls are
+relative to the spaceship's orientation. The Left key will cause the ship to
+turn left, the Right key will turn it right. The Up key is used to thrust the
+spaceship forward. The Space key is used to fire the current weapon, if there
+is enough ammo. Finally, the Shift key can be pressed to switch the current
+weapon. If the player runs out of ammo, the weapon will automatically be
+switched. F1 will bring up a description about the game.
+
+The game starts with your spaceship, home planet, and some asteroids floating
+around. After about 6 seconds, the first alien spaceship will appear, traveling
+towards your home planet. The majority of the game is just destroying as many
+alien spaceships as you can. The game ends successfully if you destroy all of
+the alien ships. The game ends in failure if either your spaceship is destroyed,
+or you home planet is destroyed.
+
+The game gets harder as more spaceships appear and appear more often. The
+fastest the spaceships are allowed to appear is 3/4ths of a second. Alien ships
+will either shoot and fly towards you or your home planet. During gameplay
+asteroids and ammo packs will also spawn. Ally cargo ships will also randomly
+appear, and if they reach the planet, the player will gain big points.
+You win each round once all enemy space ships have been destroyed.
+Your final score is a function of your spaceships health, the home planets
+health, ammo pickups, and the number of allies protected.
+
+
+
+
